@@ -162,10 +162,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calculator.h" />
+    <ClInclude Include="FizzBuzz.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="FizzBuzz.cpp" />
+    <ClCompile Include="FizzBuzz_test.cpp" />
     <ClCompile Include="gtest_study.cpp" />
     <ClCompile Include="gtest_test.cpp" />
   </ItemGroup>
