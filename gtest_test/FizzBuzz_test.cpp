@@ -30,3 +30,18 @@ TEST(fizzbuzz, should_return_string_5_when_input_number_is_10)
 {
 	EXPECT_TRUE(5 == answer(10));
 }
+
+TEST(fizzbuzz, should_return_string_15_when_input_number_is_15)
+{
+	EXPECT_TRUE(15 == answer(15));
+}
+
+TEST(fizzbuzz, should_be_1_when_given_1)
+{
+	EXPECT_STREQ("1", printString(1));
+}
+
+TEST(fizzbuzz, should_be_Fizz_when_given_3)
+{
+	EXPECT_STREQ("Fizz", printString(3));
+}
