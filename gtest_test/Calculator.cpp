@@ -24,14 +24,6 @@ void test_cpu_10000()
 {
 	count(10000);
 }
-void test_cpu_1000000()
-{
-	count(1000000);
-}
-void test_cpu_100000000()
-{
-	count(100000000);
-}
 
 bool is_little_endian()
 {
@@ -58,11 +50,3 @@ int Calculator::add(int leftNum, int rightNum)
 	return leftNum + rightNum;
 }
 
-int Calculator::multi(int leftNum, int rightNum)
-{
-	while (true)
-	{
-		int i = 3333;
-	}
-	return leftNum * rightNum;
-}
