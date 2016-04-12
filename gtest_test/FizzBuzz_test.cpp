@@ -45,3 +45,13 @@ TEST(fizzbuzz, should_be_Fizz_when_given_3)
 {
 	EXPECT_STREQ("Fizz", printString(3));
 }
+
+TEST(fizzbuzz, should_be_Buzz_when_given_5)
+{
+	EXPECT_STREQ("Buzz", printString(5));
+}
+
+TEST(fizzbuzz, should_be_FizzBuzz_when_given_15)
+{
+	EXPECT_STREQ("FizzBuzz", printString(15));
+}

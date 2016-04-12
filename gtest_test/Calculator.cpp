@@ -9,7 +9,7 @@ using std::endl;
 int count(int times)
 {
 	int temp = 0;
-	char ac[1024 * 10];
+	char ac[1024 * 10] = {0};
 
 	for (int i = 0; i < times*100; i++)
 	{
